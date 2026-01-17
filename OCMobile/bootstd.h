@@ -101,7 +101,7 @@ int fs_mount(fs_t *fs, const char *path);
 int fs_open(fs_t *fs, const char *path, file_t *out);
 
 /* Read from file */
-ssize_t fs_read(file_t *file, void *buf, size_t size);
+size_t fs_read(file_t *file, void *buf, size_t size);
 
 /* Close file */
 void fs_close(file_t *file);

@@ -1,0 +1,16 @@
+[-] OpenCore Mobile
+  [ ] Implement the bootable prototype
+  [ ] Add config file support (config.plist)
+  [ ] Implement a scripting language for writing efi-like drivers
+  [ ] Minimal Kext support (references from macOS Kexts)
+  [ ] Ability to boot from a image file (.img, .dmg, .raw, .bin)
+  [ ] Ability to select disk images and disks with vol+, vol- and power
+  [ ] External Storage device support
+  [ ] Port the HFS+ drivers from OpenCore
+  [ ] Port other essential drivers from OpenCore
+  [ ] Do cosmedic touches
+[-] Pocket Darwin
+  [ ] Implement a startup test program (temp)
+  [ ] load the Kexts from OCMobile
+  [ ] add support for tty-like output through usb-data (uart)
+  [ ] 

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+ "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleIdentifier</key>
+    <string>org.pocketdarwin.AndroidPlatformBridge</string>
+
+    <key>CFBundleName</key>
+    <string>AndroidPlatformBridge</string>
+
+    <key>CFBundleExecutable</key>
+    <string>AndroidPlatformBridge</string>
+
+    <key>CFBundlePackageType</key>
+    <string>KEXT</string>
+
+    <key>CFBundleVersion</key>
+    <string>0.1</string>
+
+    <key>OSBundleLibraries</key>
+    <dict>
+        <key>com.apple.iokit.IOKit</key>
+        <string>1.0.0</string>
+        <key>com.apple.kpi.libkern</key>
+        <string>1.0.0</string>
+    </dict>
+
+    <key>IOKitPersonalities</key>
+    <dict>
+        <key>Android Platform Bridge</key>
+        <dict>
+            <key>CFBundleIdentifier</key>
+            <string>org.pocketdarwin.AndroidPlatformBridge</string>
+            <key>IOClass</key>
+            <string>AndroidPlatformBridge</string>
+            <key>IOMatchCategory</key>
+            <string>IOPlatformExpert</string>
+            <key>IOProviderClass</key>
+            <string>IOResources</string>
+        </dict>
+    </dict>
+</dict>
+</plist>
